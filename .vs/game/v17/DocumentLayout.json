@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|c:\\users\\johnc\\onedrive\\documents\\rpg\\game\\game\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\demon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\demon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\angel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\angel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|c:\\users\\johnc\\onedrive\\documents\\rpg\\game\\game\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zombie.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Zombie.cs",
+              "RelativeDocumentMoniker": "game\\Zombie.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Zombie.cs",
+              "RelativeToolTip": "game\\Zombie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4BAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T04:29:27.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Game.cs",
+              "RelativeDocumentMoniker": "game\\Game.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Game.cs",
+              "RelativeToolTip": "game\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:31:26.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Menu.cs",
+              "RelativeDocumentMoniker": "game\\Menu.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Menu.cs",
+              "RelativeToolTip": "game\\Menu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:31:23.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Angel.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Angel.cs",
+              "RelativeDocumentMoniker": "game\\Angel.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Angel.cs",
+              "RelativeToolTip": "game\\Angel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T02:15:20.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Demon.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Demon.cs",
+              "RelativeDocumentMoniker": "game\\Demon.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Demon.cs",
+              "RelativeToolTip": "game\\Demon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T21:30:06.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Enemy.cs",
+              "RelativeDocumentMoniker": "game\\Enemy.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Enemy.cs",
+              "RelativeToolTip": "game\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:00:39.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Character.cs",
+              "RelativeDocumentMoniker": "game\\Character.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Character.cs",
+              "RelativeToolTip": "game\\Character.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T08:24:01.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Weapon.cs",
+              "RelativeDocumentMoniker": "game\\Weapon.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Weapon.cs",
+              "RelativeToolTip": "game\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T08:53:44.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Armor.cs",
+              "RelativeDocumentMoniker": "game\\Armor.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Armor.cs",
+              "RelativeToolTip": "game\\Armor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T09:27:15.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Item.cs",
+              "RelativeDocumentMoniker": "game\\Item.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Item.cs",
+              "RelativeToolTip": "game\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T09:37:49.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ability.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Ability.cs",
+              "RelativeDocumentMoniker": "game\\Ability.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Ability.cs",
+              "RelativeToolTip": "game\\Ability.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T09:44:36.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ghost.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Ghost.cs",
+              "RelativeDocumentMoniker": "game\\Ghost.cs",
+              "ToolTip": "C:\\Users\\johnc\\OneDrive\\Documents\\RPG\\game\\game\\Ghost.cs",
+              "RelativeToolTip": "game\\Ghost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:56:22.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
