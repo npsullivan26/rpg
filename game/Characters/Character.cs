@@ -196,7 +196,42 @@ namespace game.Characters
 
         internal List<Weapon> GenerateWeapons(NPCType type, string location)
         {
-          
+            var _weapon = new Weapon();
+            var weapons = new List<Weapon>();
+            switch (type)
+            {
+                case NPCType.Bartender:
+                    weapons = _weapon.GenerateBartenderWeapons(location);
+                    break;
+                case NPCType.Townsfolk:
+                    weapons = _weapon.GenerateTownsfolkWeapons(location);
+                    break;
+                case NPCType.Bouncer:
+                    weapons = _weapon.GenerateBouncerWeapons(location);
+                    break;
+                case NPCType.Normal_Guard:
+                    weapons = _weapon.GenerateNormalGuardWeapons(location);
+                    break;
+                case NPCType.Soldier:
+                    weapons = _weapon.GenerateSoldierWeapons(location);
+                    break;
+                case NPCType.Political_Guard:
+                    weapons = _weapon.GeneratePoliticalGuardWeapons(location);
+                    break;
+                case NPCType.Commander:
+                    weapons = _weapon.GenerateCommanderWeapons(location);
+                    break;
+                case NPCType.Elite_Guard:
+                    weapons = _weapon.GenerateEliteGuardWeapons(location);
+                    break;
+                case NPCType.Royal:
+                    weapons = _weapon.GenerateRoyalWeapons(location);
+                    break;
+                case NPCType.Elite:
+                    weapons = _weapon.GenerateEliteWeapons(location);
+                    break;
+            }
+            return weapons;
         }
     }
 }

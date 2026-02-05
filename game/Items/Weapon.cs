@@ -32,11 +32,6 @@ namespace game.Items
             Damage = damage;
         }
 
-        internal Weapon Fists()
-        {
-            return new Weapon(WeaponType.Melee, "Fists", 10);
-        }
-
         // Demon Weapons
         internal Weapon InfernumDagger()
         {
@@ -89,10 +84,219 @@ namespace game.Items
             return new Weapon(WeaponType.One_Handed, "Celestium Flail", 600);
         }
 
-        // NPC Weapons
+        // General Weapons
+        internal Weapon Fists()
+        {
+            return new Weapon(WeaponType.Melee, "Fists", 10);
+        }
         internal Weapon ChefsKnife()
         {
             return new Weapon(WeaponType.One_Handed, "Chef's Knife", 40);
+        }
+        internal Weapon Dagger()
+        {
+            return new Weapon(WeaponType.One_Handed, "Dagger", 25);
+        }
+        internal Weapon ThrowingKnife()
+        {
+            return new Weapon(WeaponType.Ranged, "Throwing Knife", 40);
+        }
+        internal Weapon Bonesaw()
+        {
+            return new Weapon(WeaponType.One_Handed, "Bonesaw", 60);
+        }
+        internal Weapon Boomerang()
+        {
+            return new Weapon(WeaponType.Ranged, "Boomerang", 50);
+        }
+        internal Weapon BrassKnuckles()
+        {
+            return new Weapon(WeaponType.Melee, "Brass Knuckles", 35);
+        }
+        internal Weapon Pistol()
+        {
+            return new Weapon(WeaponType.Gun, "Pistol", 75);
+        }
+        internal Weapon ShortSword()
+        {
+            return new Weapon(WeaponType.One_Handed, "Short Sword", 50);
+        }
+        internal Weapon Baton()
+        {
+            return new Weapon(WeaponType.One_Handed, "Baton", 35);
+        }
+        internal Weapon Crossbow()
+        {
+            return new Weapon(WeaponType.Ranged, "Crossbow", 65);
+        }
+        internal Weapon ChainWhip()
+        {
+            return new Weapon(WeaponType.Ranged, "Chain Whip", 55);
+        }
+
+        // Generator Methods
+        internal List<Weapon> GenerateBartenderWeapons(string location)
+        {
+            var weapons = new List<Weapon>();
+            switch (location)
+            {
+                case "The Blythewoods":
+                    weapons = GenerateBlythewoodsBartenderWeapons();
+                    break;
+                case "Malagantu":
+                    weapons = GenerateMalagantuBartenderWeapons();
+                    break;
+                case "Nyborg":
+                    weapons = GenerateNyborgBartenderWeapons();
+                    break;
+                case "Santtengah":
+                    weapons = GenerateSanttengahBartenderWeapons();
+                    break;
+                case "Zerua":
+                    weapons = GenerateZeruaBartenderWeapons();
+                    break;
+            }
+            return weapons;
+        }
+
+        private List<Weapon> GenerateBlythewoodsBartenderWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(ChefsKnife());
+                    break;
+                case 2:
+                    weapons.Add(Dagger());
+                    break;
+                case 3:
+                    weapons.Add(ThrowingKnife());
+                    break;
+                default:
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateMalagantuBartenderWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(ChefsKnife());
+                    break;
+                case 2:
+                    weapons.Add(Bonesaw());
+                    break;
+                case 3:
+                    weapons.Add(Boomerang());
+                    break;
+                default:
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateNyborgBartenderWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(ChefsKnife());
+                    break;
+                case 2:
+                    weapons.Add(BrassKnuckles());
+                    break;
+                case 3:
+                    weapons.Add(Pistol());
+                    break;
+                default:
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateZeruaBartenderWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(ChefsKnife());
+                    break;
+                case 2:
+                    weapons.Add(ShortSword());
+                    break;
+                case 3:
+                    weapons.Add(Crossbow());
+                    break;
+                default:
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateSanttengahBartenderWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 12);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(ChefsKnife());
+                    break;
+                case 2:
+                    weapons.Add(Dagger());
+                    break;
+                case 3:
+                    weapons.Add(Bonesaw());
+                    break;
+                case 4:
+                    weapons.Add(BrassKnuckles());
+                    break;
+                case 5:
+                    weapons.Add(ShortSword());
+                    break;
+                case 6:
+                    weapons.Add(Baton());
+                    break;
+                case 7:
+                    weapons.Add(ThrowingKnife());
+                    break;
+                case 8:
+                    weapons.Add(Boomerang());
+                    break;
+                case 9:
+                    weapons.Add(Pistol());
+                    break;
+                case 10:
+                    weapons.Add(Crossbow());
+                    break;
+                case 11:
+                    weapons.Add(ChainWhip());
+                    break;
+                default:
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
         }
     }
 }
