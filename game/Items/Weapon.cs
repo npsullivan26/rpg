@@ -96,6 +96,7 @@ namespace game.Items
         {
             return new Weapon(WeaponType.One_Handed, "Chef's Knife", 40);
         }
+
             // The Blythewoods
         internal Weapon Dagger()
         {
@@ -120,6 +121,17 @@ namespace game.Items
         {
             return new Weapon(WeaponType.One_Handed, "Spear", 60);
         }
+                // Soldier Special
+        internal Weapon Greatsword()
+        {
+            return new Weapon(WeaponType.Two_Handed, "Greatsword", 150);
+        }
+                // Political Guard Special
+        internal Weapon ExplodingBolt()
+        {
+            return new Weapon(WeaponType.Ranged, "Exploding Bolt", 250);
+        }
+
             // Malagantu
         internal Weapon Bonesaw()
         {
@@ -143,6 +155,17 @@ namespace game.Items
         {
             return new Weapon(WeaponType.Two_Handed, "Longsword", 100);
         }
+                // Soldier Special
+        internal Weapon Flail()
+        {
+            return new Weapon(WeaponType.Ranged, "Flail", 175);
+        }
+                // Political Guard Special
+        internal Weapon PsychicPunch()
+        {
+            return new Weapon(WeaponType.Psychic, "Psychic Punch", 225);
+        }
+
             // Nyborg
         internal Weapon BrassKnuckles()
         {
@@ -167,6 +190,17 @@ namespace game.Items
         {
             return new Weapon(WeaponType.Gun, "Rifle", 150);
         }
+                // Soldier Special
+        internal Weapon SniperRifle()
+        {
+            return new Weapon(WeaponType.Gun, "Sniper Rifle", 250);
+        }
+                // Political Guard Special (low dmg but has chance to steal items/money)
+        internal Weapon ThievesHook()
+        {
+            return new Weapon(WeaponType.Ranged, "Thieves' Hook", 120);
+        }
+
             // Santtengah
         internal Weapon ShortSword()
         {
@@ -191,6 +225,17 @@ namespace game.Items
         {
             return new Weapon(WeaponType.Ranged, "Tri-Bolt", 125);
         }
+                // Soldier Special
+        internal Weapon MachineGun()
+        {
+            return new Weapon(WeaponType.Gun, "Machine Gun", 200);
+        }
+                // Political Guard Special
+        internal Weapon PsychicOppression()
+        {
+            return new Weapon(WeaponType.Psychic, "Psychic Oppression", 325);
+        }
+
             // Zerua
         internal Weapon Crossbow()
         {
@@ -214,6 +259,16 @@ namespace game.Items
         internal Weapon Battleaxe()
         {
             return new Weapon(WeaponType.One_Handed, "Battle Axe", 90);
+        }
+                // Soldier Special
+        internal Weapon Warhammer()
+        {
+            return new Weapon(WeaponType.Two_Handed, "Warhammer", 175);
+        }
+                // Political Guard Special
+        internal Weapon PoisonArrow()
+        {
+            return new Weapon(WeaponType.Ranged, "Poison Arrow", 200);
         }
 
         // Generator Methods (Bartender)
@@ -324,42 +379,27 @@ namespace game.Items
         private List<Weapon> GenerateSanttengahBartenderWeapons()
         {
             var weapons = new List<Weapon>();
-            int selector = new Random().Next(0, 12);
+            int selector = new Random().Next(0, 7);
             switch (selector)
             {
                 case 0:
                     break;
                 case 1:
-                    weapons.Add(ChefsKnife());
+                    weapons = GenerateBlythewoodsBartenderWeapons();
                     break;
                 case 2:
-                    weapons.Add(Dagger());
+                    weapons = GenerateMalagantuBartenderWeapons();
                     break;
                 case 3:
-                    weapons.Add(Bonesaw());
+                    weapons = GenerateNyborgBartenderWeapons();
                     break;
                 case 4:
-                    weapons.Add(BrassKnuckles());
+                    weapons = GenerateZeruaBartenderWeapons();
                     break;
                 case 5:
-                    weapons.Add(ShortSword());
-                    break;
-                case 6:
-                    weapons.Add(Baton());
-                    break;
-                case 7:
-                    weapons.Add(ThrowingKnife());
-                    break;
-                case 8:
-                    weapons.Add(Boomerang());
-                    break;
-                case 9:
-                    weapons.Add(Pistol());
-                    break;
-                case 10:
                     weapons.Add(Crossbow());
                     break;
-                case 11:
+                case 6:
                     weapons.Add(ChainWhip());
                     break;
             }
@@ -474,54 +514,30 @@ namespace game.Items
         private List<Weapon> GenerateSanttengahTownsfolkWeapons()
         {
             var weapons = new List<Weapon>();
-            int selector = new Random().Next(0, 16);
+            int selector = new Random().Next(0, 8);
             switch (selector)
             {
                 case 0:
                     break;
                 case 1:
-                    weapons.Add(ShortSword());
+                    weapons = GenerateBlythewoodsTownsfolkWeapons();
                     break;
                 case 2:
-                    weapons.Add(Baton());
+                    weapons = GenerateMalagantuTownsfolkWeapons();
                     break;
                 case 3:
-                    weapons.Add(Shotgun());
+                    weapons = GenerateNyborgTownsfolkWeapons();
                     break;
                 case 4:
-                    weapons.Add(Dagger());
+                    weapons = GenerateZeruaTownsfolkWeapons();
                     break;
                 case 5:
-                    weapons.Add(ThrowingKnife());
-                    break;
-                case 6:
-                    weapons.Add(Bow());
-                    break;
-                case 7:
-                    weapons.Add(Bonesaw());
-                    break;
-                case 8:
-                    weapons.Add(Boomerang());
-                    break;
-                case 9:
-                    weapons.Add(Scimitar());
-                    break;
-                case 10:
-                    weapons.Add(BrassKnuckles());
-                    break;
-                case 11:
-                    weapons.Add(Pistol());
-                    break;
-                case 12:
-                    weapons.Add(Grenade());
-                    break;
-                case 13:
                     weapons.Add(Crossbow());
                     break;
-                case 14:
+                case 6:
                     weapons.Add(ChainWhip());
                     break;
-                case 15:
+                case 7:
                     weapons.Add(Longbow());
                     break;
             }
@@ -636,54 +652,30 @@ namespace game.Items
         private List<Weapon> GenerateSanttengahBouncerWeapons()
         {
             var weapons = new List<Weapon>();
-            int selector = new Random().Next(0, 16);
+            int selector = new Random().Next(0, 8);
             switch (selector)
             {
                 case 0:
                     break;
                 case 1:
-                    weapons.Add(Dagger());
+                    weapons = GenerateBlythewoodsBouncerWeapons();
                     break;
                 case 2:
-                    weapons.Add(ThrowingKnife());
+                    weapons = GenerateMalagantuBouncerWeapons();
                     break;
                 case 3:
-                    weapons.Add(Gauntlets());
+                    weapons = GenerateNyborgBouncerWeapons();
                     break;
                 case 4:
-                    weapons.Add(Bonesaw());
+                    weapons = GenerateZeruaBouncerWeapons();
                     break;
                 case 5:
-                    weapons.Add(Boomerang());
-                    break;
-                case 6:
-                    weapons.Add(SpikedClub());
-                    break;
-                case 7:
-                    weapons.Add(BrassKnuckles());
-                    break;
-                case 8:
-                    weapons.Add(Pistol());
-                    break;
-                case 9:
-                    weapons.Add(SpikedGauntlets());
-                    break;
-                case 10:
-                    weapons.Add(ShortSword());
-                    break;
-                case 11:
-                    weapons.Add(Baton());
-                    break;
-                case 12:
-                    weapons.Add(SpikedChain());
-                    break;
-                case 13:
                     weapons.Add(Crossbow());
                     break;
-                case 14:
+                case 6:
                     weapons.Add(ChainWhip());
                     break;
-                case 15:
+                case 7:
                     weapons.Add(HeavyHammer());
                     break;
             }
@@ -798,7 +790,65 @@ namespace game.Items
         private List<Weapon> GenerateSanttengahNormalGuardWeapons()
         {
             var weapons = new List<Weapon>();
-            int selector = new Random().Next(0, 16);
+            int selector = new Random().Next(0, 8);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons = GenerateBlythewoodsNormalGuardWeapons();
+                    break;
+                case 2:
+                    weapons = GenerateMalagantuNormalGuardWeapons();
+                    break;
+                case 3:
+                    weapons = GenerateNyborgNormalGuardWeapons();
+                    break;
+                case 4:
+                    weapons = GenerateZeruaNormalGuardWeapons();
+                    break;
+                case 5:
+                    weapons.Add(Crossbow());
+                    break;
+                case 6:
+                    weapons.Add(ChainWhip());
+                    break;
+                case 7:
+                    weapons.Add(Battleaxe());
+                    break;
+            }
+            return weapons;
+        }
+
+        // Generator Methods (Soldier)
+        internal List<Weapon> GenerateSoldierWeapons(string location)
+        {
+            var weapons = new List<Weapon>();
+            switch (location)
+            {
+                case "The Blythewoods":
+                    weapons = GenerateBlythewoodsSoldierWeapons();
+                    break;
+                case "Malagantu":
+                    weapons = GenerateMalagantuSoldierWeapons();
+                    break;
+                case "Nyborg":
+                    weapons = GenerateNyborgSoldierWeapons();
+                    break;
+                case "Santtengah":
+                    weapons = GenerateSanttengahSoldierWeapons();
+                    break;
+                case "Zerua":
+                    weapons = GenerateZeruaSoldierWeapons();
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateBlythewoodsSoldierWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
             switch (selector)
             {
                 case 0:
@@ -810,46 +860,261 @@ namespace game.Items
                     weapons.Add(ThrowingKnife());
                     break;
                 case 3:
-                    weapons.Add(Spear());
-                    break;
-                case 4:
-                    weapons.Add(Bonesaw());
-                    break;
-                case 5:
-                    weapons.Add(Boomerang());
-                    break;
-                case 6:
-                    weapons.Add(Longsword());
-                    break;
-                case 7:
-                    weapons.Add(BrassKnuckles());
-                    break;
-                case 8:
-                    weapons.Add(Pistol());
-                    break;
-                case 9:
-                    weapons.Add(Rifle());
-                    break;
-                case 10:
-                    weapons.Add(ShortSword());
-                    break;
-                case 11:
-                    weapons.Add(Baton());
-                    break;
-                case 12:
-                    weapons.Add(Tribolt());
-                    break;
-                case 13:
-                    weapons.Add(Crossbow());
-                    break;
-                case 14:
-                    weapons.Add(ChainWhip());
-                    break;
-                case 15:
-                    weapons.Add(Battleaxe());
+                    weapons.Add(Greatsword());
                     break;
             }
             return weapons;
         }
+        private List<Weapon> GenerateMalagantuSoldierWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(Bonesaw());
+                    break;
+                case 2:
+                    weapons.Add(Boomerang());
+                    break;
+                case 3:
+                    weapons.Add(Flail());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateNyborgSoldierWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(BrassKnuckles());
+                    break;
+                case 2:
+                    weapons.Add(Pistol());
+                    break;
+                case 3:
+                    weapons.Add(SniperRifle());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateZeruaSoldierWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 4);
+            switch (selector)
+            {
+                case 0:
+                    break;
+                case 1:
+                    weapons.Add(Crossbow());
+                    break;
+                case 2:
+                    weapons.Add(ChainWhip());
+                    break;
+                case 3:
+                    weapons.Add(Warhammer());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateSanttengahSoldierWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 8);
+            switch (selector) {
+                case 0:
+                    break;
+                case 1:
+                    weapons = GenerateBlythewoodsSoldierWeapons();
+                    break;
+                case 2:
+                    weapons = GenerateMalagantuSoldierWeapons();
+                    break;
+                case 3:
+                    weapons = GenerateNyborgSoldierWeapons();
+                    break;
+                case 4:
+                    weapons = GenerateZeruaSoldierWeapons();
+                    break;
+                case 5:
+                    weapons.Add(ShortSword());
+                    break;
+                case 6:
+                    weapons.Add(Baton());
+                    break;
+                case 7:
+                    weapons.Add(MachineGun());
+                    break;
+            }
+            return weapons;
+        }
+
+        // Generator Methods (Political Guard)
+        internal List<Weapon> GeneratePoliticalGuardWeapons(string location)
+        {
+            var weapons = new List<Weapon>();
+            switch (location)
+            {
+                case "The Blythewoods":
+                    weapons = GenerateBlythewoodsPoliticalGuardWeapons();
+                    break;
+                case "Malagantu":
+                    weapons = GenerateMalagantuPoliticalGuardWeapons();
+                    break;
+                case "Nyborg":
+                    weapons = GenerateNyborgPoliticalGuardWeapons();
+                    break;
+                case "Santtengah":
+                    weapons = GenerateSanttengahPoliticalGuardWeapons();
+                    break;
+                case "Zerua":
+                    weapons = GenerateZeruaPoliticalGuardWeapons();
+                    break;
+            }
+            weapons.Add(Fists());
+            return weapons;
+        }
+        private List<Weapon> GenerateBlythewoodsPoliticalGuardWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 5);
+            switch (selector)
+            {
+                case 0:
+                    weapons.Add(Dagger());
+                    break;
+                case 1:
+                    weapons.Add(Bow());
+                    break;
+                case 2:
+                    weapons.Add(Spear());
+                    break;
+                case 3:
+                    weapons.Add(Greatsword());
+                    break;
+                case 4:
+                    weapons.Add(ExplodingBolt());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateMalagantuPoliticalGuardWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 5);
+            switch (selector)
+            {
+                case 0:
+                    weapons.Add(Bonesaw());
+                    break;
+                case 1:
+                    weapons.Add(Scimitar());
+                    break;
+                case 2:
+                    weapons.Add(Longsword());
+                    break;
+                case 3:
+                    weapons.Add(Flail());
+                    break;
+                case 4:
+                    weapons.Add(PsychicPunch());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateNyborgPoliticalGuardWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 5);
+            switch (selector)
+            {
+                case 0:
+                    weapons.Add(Pistol());
+                    break;
+                case 1:
+                    weapons.Add(Grenade());
+                    break;
+                case 2:
+                    weapons.Add(Rifle());
+                    break;
+                case 3:
+                    weapons.Add(SniperRifle());
+                    break;
+                case 4:
+                    weapons.Add(ThievesHook());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateZeruaPoliticalGuardWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 5);
+            switch (selector)
+            {
+                case 0:
+                    weapons.Add(Crossbow());
+                    break;
+                case 1:
+                    weapons.Add(Longbow());
+                    break;
+                case 2:
+                    weapons.Add(Battleaxe());
+                    break;
+                case 3:
+                    weapons.Add(Warhammer());
+                    break;
+                case 4:
+                    weapons.Add(PoisonArrow());
+                    break;
+            }
+            return weapons;
+        }
+        private List<Weapon> GenerateSanttengahPoliticalGuardWeapons()
+        {
+            var weapons = new List<Weapon>();
+            int selector = new Random().Next(0, 9);
+            switch (selector)
+            {
+                case 0:
+                    weapons = GenerateBlythewoodsPoliticalGuardWeapons();
+                    break;
+                case 1:
+                    weapons = GenerateMalagantuPoliticalGuardWeapons();
+                    break;
+                case 2:
+                    weapons = GenerateNyborgPoliticalGuardWeapons();
+                    break;
+                case 3:
+                    weapons = GenerateZeruaPoliticalGuardWeapons();
+                    break;
+                case 4:
+                    weapons.Add(ShortSword());
+                    break;
+                case 5:
+                    weapons.Add(Shotgun());
+                    break;
+                case 6:
+                    weapons.Add(Tribolt());
+                    break;
+                case 7:
+                    weapons.Add(MachineGun());
+                    break;
+                case 8:
+                    weapons.Add(PsychicOppression());
+                    break;
+            }
+            return weapons;
+        }
+
+        // Generator Methods (Commander)
     }
 }

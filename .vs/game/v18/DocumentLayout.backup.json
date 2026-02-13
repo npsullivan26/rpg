@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\johnc\\Documents\\RPG\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\Documents\\RPG\\game\\game\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|c:\\users\\johnc\\documents\\rpg\\game\\game\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\characters\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|c:\\users\\johnc\\documents\\rpg\\game\\game\\characters\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|C:\\Users\\johnc\\Documents\\RPG\\game\\game\\characters\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFB5A7D-A506-4F97-8433-5A2C78011F0E}|game\\game.csproj|solutionrelative:game\\characters\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -66,33 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 233,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NPC.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\NPC.cs",
-              "RelativeDocumentMoniker": "game\\Characters\\NPC.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\NPC.cs",
-              "RelativeToolTip": "game\\Characters\\NPC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:22:27.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Armor.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Items\\Armor.cs",
-              "RelativeDocumentMoniker": "game\\Items\\Armor.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Items\\Armor.cs",
-              "RelativeToolTip": "game\\Items\\Armor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:15:06.663Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 9,
@@ -155,6 +130,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\Character.cs",
+              "RelativeDocumentMoniker": "game\\Characters\\Character.cs",
+              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\Character.cs",
+              "RelativeToolTip": "game\\Characters\\Character.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAuwMcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:12:12.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Items\\Armor.cs",
+              "RelativeDocumentMoniker": "game\\Items\\Armor.cs",
+              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Items\\Armor.cs",
+              "RelativeToolTip": "game\\Items\\Armor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:15:06.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\NPC.cs",
+              "RelativeDocumentMoniker": "game\\Characters\\NPC.cs",
+              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\NPC.cs",
+              "RelativeToolTip": "game\\Characters\\NPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:22:27.988Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\Enemy.cs",
@@ -164,19 +176,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T16:14:20.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\Character.cs",
-              "RelativeDocumentMoniker": "game\\Characters\\Character.cs",
-              "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Characters\\Character.cs",
-              "RelativeToolTip": "game\\Characters\\Character.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAYwMcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:12:12.005Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -218,8 +217,7 @@
               "RelativeToolTip": "game\\Characters\\Zombie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:14:31.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T16:14:31.863Z"
             },
             {
               "$type": "Document",
@@ -241,7 +239,7 @@
               "RelativeDocumentMoniker": "game\\Items\\Weapon.cs",
               "ToolTip": "C:\\Users\\johnc\\Documents\\RPG\\game\\game\\Items\\Weapon.cs",
               "RelativeToolTip": "game\\Items\\Weapon.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAA6wGIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALYBAAAAAAAAAAAxwA4EAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T16:15:17.808Z",
               "EditorCaption": ""
